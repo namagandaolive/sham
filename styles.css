@@ -1,0 +1,98 @@
+/*footer*/
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+}
+
+body {
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    
+
+
+
+
+}
+header{
+    color:orangered;
+    background-color:black;
+
+
+}
+
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+#bad{
+
+    border-radius: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+
+
+
+.profile {
+    
+    border-radius:  60%;
+    margin-left: 600px;
+}
+
+h1{
+text-align: center;
+margin-top: 20px;
+
+}
+
+.fashion{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+
+}
+/*responsive design*/
+@media screen and (max-width: 768px) {
+    .nav-item {
+        display: none;
+        flex-direction: column;
+    }
+    .nav-item.active {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+}
+/*contact*/
+form input, form textarea{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form input, form textarea, form button {
+    padding: 10px;
+    font-size: 16px;
+}
+    
+    
+
+
+
+    
+
+
+
+
+
